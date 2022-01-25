@@ -1,3 +1,3 @@
 # Rock Paper Scissors
 
-[Live Preview][https://github.com/elbhiruni/odin-landing-page]
+[Live Preview](https://elbhiruni.github.io/odin-rock-paper-scissors/)
