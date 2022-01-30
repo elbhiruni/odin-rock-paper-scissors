@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      .container {
+        height: 100vh;
+      }
+
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
-    <script src="script.js"></script>
+    <div class="container">
+      <header><h1>Rock Paper Scissors</h1></header>
+      <main>
+        <div class="center">
+          <button class="rock">Rock</button>
+          <button class="paper">Paper</button>
+          <button class="scissors">Scissors</button>
+        </div>
+        <div>
+          <p class="score">Player 0 Computer 0</p>
+          <p class="result"></p>
+          <p class="winner"></p>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
